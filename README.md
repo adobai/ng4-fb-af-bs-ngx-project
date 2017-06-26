@@ -9,6 +9,7 @@ An IDE like Visual Studio Code or Atom
 1.  Create new Angular4 app
     From the command line:
       >ng new your-app
+      
       >cd your-app
     
 2.  Install firebase, angularfire2 and ngx-bootstrap
