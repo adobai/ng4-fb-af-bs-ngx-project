@@ -37,3 +37,11 @@ An IDE like Visual Studio Code or Atom
 7.  Add header, footer, home, login-required, not-found, and logged-in components from the attached files to your project utilizing the same paths
 
 8. ng serve to test application
+
+Links for more information:
+1.  Twitter Bootstrap: http://getbootstrap.com/
+2.  Font Awesome: http://fontawesome.io/
+3.  NGX-Bootstrap: http://valor-software.com/ngx-bootstrap/#/
+4.  AngularFire2: https://github.com/angular/angularfire2/tree/master/docs
+5.  Angular CLI: https://cli.angular.io/
+6.  Firebase: https://firebase.google.com/
