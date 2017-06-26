@@ -19,20 +19,30 @@ An IDE like Visual Studio Code or Atom
 3.  Open project in IDE
 
 4.  Add src/index.html
+
     —OR—
+    
     Add bootstrap and font-awesome css via CDN to project from within Atom
+    
     Bootstrap: http://getbootstrap.com/getting-started/
+    
     Font-Awesome: https://www.bootstrapcdn.com/fontawesome/
                   -select HTML for copy
+                  
     Copy CDN links to src/app/index.html within <head></head>
 
 5.  Update src/environments/environment.ts for your Firebase info
 
 6.  Add src/app/app-routing.module.ts
+
     Add src/app/auth.service.ts
+    
     Add src/app/auth-guard.service.ts
+    
     Add src/app/app.component.html
+    
     Add src/app/app.component.ts
+    
     Add src/app/app.module.ts
 
 7.  Add header, footer, home, login-required, not-found, and logged-in components from the attached files to your project utilizing the same paths
