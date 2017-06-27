@@ -14,7 +14,7 @@ An IDE like Visual Studio Code or Atom
     
 2.  Install firebase, angularfire2 and ngx-bootstrap
     From a command line in the your-app folder
-    >npm install firebase angularfire2@next ngx-bootstrap@next --save
+    >npm install firebase angularfire2@next ngx-bootstrap@next ngx-text-equality-validator --save
 
 3.  Open project in IDE
 
