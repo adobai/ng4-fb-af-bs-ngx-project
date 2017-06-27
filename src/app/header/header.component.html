@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand pull-left" routerLink="/">
-        <img src="../assets/img/Header-with-phone.jpg" alt="Mountain Area Electrical Services, LLC" class="image-reactive">
+        Your Company Brand
       </a>
     </div>
 
@@ -26,7 +26,7 @@
           <!-- sans auth -->
           <li class="divider dropdown-divider" *ngIf="!authService.isAuthenticated()"></li>
           <li role="menuitem" *ngIf="!authService.isAuthenticated()">
-            <a class="dropdown-item" (click)="loginModal.show()">Login</a>
+            <a class="dropdown-item" (click)="loginModal.show();">Login</a>
           </li>
           <li role="menuitem" *ngIf="!authService.isAuthenticated()">
             <a class="dropdown-item" (click)="registerModal.show()">Register</a>
@@ -44,52 +44,5 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<!--Login modal-->
-<div bsModal #loginModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLoginModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title pull-left">Login</h4>
-        <button type="button" class="close pull-right" (click)="loginModal.hide()" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        modal body is here
-        <div class="pull-right">
-          <button type="button" class="btn btn-default" (click)="loginModal.hide()" aria-label="Close">
-            Close
-          </button>
-          <button type="button" class="btn btn-primary" (click)="onLogin()" aria-label="Close">
-            Log In
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--Register modal-->
-<div bsModal #registerModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myRegisterModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title pull-left">Register</h4>
-        <button type="button" class="close pull-right" (click)="registerModal.hide()" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        modal body is here
-        <div class="pull-right">
-          <button type="button" class="btn btn-default" (click)="registerModal.hide()" aria-label="Close">
-            Close
-          </button>
-          <button type="button" class="btn btn-primary" (click)="onRegister()" aria-label="Close">
-            Register
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<app-login-modal #loginModal></app-login-modal>
+<app-register-modal #registerModal></app-register-modal>
