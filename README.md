@@ -56,3 +56,4 @@ Links for more information:
 4.  AngularFire2: https://github.com/angular/angularfire2/tree/master/docs
 5.  Angular CLI: https://cli.angular.io/
 6.  Firebase: https://firebase.google.com/
+7.  Text Validator:  https://github.com/NetanelBasal/ngx-text-equality-validator
